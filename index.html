@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room8</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="index.html"
+              ><img src="Images/bedlogo.png" alt="Room8"
+            /></a>
+            <h3>ROOM8</h3>
+          </div>
+        </div>
+
+        <div class="nav-btn">
+          <label for="nav-check">
+            <img src="Images/nav.png" alt="nav-icon" />
+          </label>
+        </div>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+
+          <!-- Vacancies Dropdown -->
+          <div class="dropdown">
+            <a href="#services" style="text-decoration: none">Vacancies</a>
+            <div class="dropdown-content">
+              <a href="dorm.html">Dormitories</a>
+              <a href="apt.html">Apartments</a>
+              <a href="condo.html">Condominiums</a>
+            </div>
+          </div>
+
+          <a href="index.html#contact">Contact</a>
+          <a href="signin.html">Sign In</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero start -->
+    <section id="hero">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="active"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/hero wp1.jpg" class="d-block w-100" />
+
+            <div class="overlay">
+              <h2>
+                Looking for a place but want it to be easier on your wallet?
+              </h2>
+
+              <a href="#" class="get-started">Get Started</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="Images/hero wp2.jpg" class="d-block w-100" />
+
+            <div class="overlay">
+              <h2>Have an extra room you're not using?</h2>
+
+              <a href="#" class="get-started">Get Started</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="Images/hero wp3.jpg" class="d-block w-100" />
+
+            <div class="overlay">
+              <h2>Let's find you a ROOM8 today</h2>
+
+              <a href="#" class="get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- About Start -->
+
+    <section id="about">
+      <h1 class="text-center">About Us</h1>
+
+      <div class="abt">
+        <img src="Images/about.png" />
+
+        <div class="abt-txt">
+          <h3 class="abt-head">
+            Welcome to Room8 - Your Perfect Roommate Connection
+          </h3>
+          <p class="abt-msg">
+            Are you tired of the endless search for the ideal roommate? Look no
+            further! At Room8, we're here to make your roommate-hunting journey
+            easier and more enjoyable. <br /><br />
+            Our mission is simple: to help you find the perfect roommate match.
+            We understand that living with someone else is a significant
+            decision, and compatibility matters. That's why Room8 uses advanced
+            algorithms and thoughtful profiling to connect you with potential
+            roommates who share your lifestyle, preferences, and values.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Available start -->
+
+    <section id="available">
+      <div class="top">
+        <h1 class="text-center">Available</h1>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 d-flex align-items-stretch mx-auto mb-3">
+            <div class="card">
+              <img src="Images/Dorm/d1.jfif" class="card-img-top dorm" />
+
+              <div class="card-body">
+                <h5 class="card-title">Dorms</h5>
+                <p class="card-text">
+                  Ideal living situation for students in university
+                </p>
+                <a href="dorm.html" class="btn btn-primary">View More</a>
+              </div>
+
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex align-items-stretch mx-auto mb-3">
+            <div class="card">
+              <img
+                src="Images/Apartment/A1/b1.webp"
+                class="card-img-top dorm"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Apartments</h5>
+                <p class="card-text">
+                  Good for young professionals and students alike
+                </p>
+                <a href="apt.html" class="btn btn-primary">View More</a>
+              </div>
+
+              <div class="card-footer">
+                <small class="text-muted">Last updated 1 hr ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex align-items-stretch mx-auto mb-3">
+            <div class="card">
+              <img src="Images/Condo/c1.jfif" class="card-img-top dorm" />
+
+              <div class="card-body">
+                <h5 class="card-title">Condos</h5>
+                <p class="card-text">
+                  More High end units with better accomodations.
+                </p>
+                <a href="condo.html" class="btn btn-primary">View More</a>
+              </div>
+
+              <div class="card-footer">
+                <small class="text-muted">Last updated 23 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="feature">
+                    <i class="fa fa-id-card"></i>
+                    <h3>Comprehensive Profiles</h3>
+                    <p>
+                      Our user-friendly platform allows you to create detailed
+                      profiles that showcase your personality, preferences, and
+                      what you're looking for in a roommate.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="feature">
+                    <i class="fa fa-check-circle"></i>
+                    <h3>Verified Users</h3>
+                    <p>
+                      Rest easy knowing that all users are verified, providing a
+                      safe and secure environment for your roommate search.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="feature">
+                    <i class="fa fa-filter"></i>
+                    <h3>Filter Search</h3>
+                    <p>Search based on city, price, or place type.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="feature">
+                    <i class="fa fa-file-word-o"></i>
+                    <h3>Room8 Agreement</h3>
+                    <p>
+                      A standard agreement we have our users sign so that there
+                      will be mutual respect between them.
+                      <a href="Docs/RA.docx" download>Click here</a> to download
+                      a copy.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="feature">
+                    <i class="fa fa-star"></i>
+                    <h3>Reviews and Ratings</h3>
+                    <p>
+                      Check and see what past or current roommates have to say
+                      about their experiences, helping you make informed
+                      decisions.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="feature">
+                    <i class="fa fa-group"></i>
+                    <h3>Room8 Interviews</h3>
+                    <p>
+                      Interview potential Room8s before deciding on which one to
+                      accept. We can also send a mediator upon request.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#featureCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#featureCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- contact section-->
+
+    <section class="container mt-3 section" id="contact">
+      <h1 class="text-center">Have an Inquiry?</h1>
+
+      <div class="row mt-4">
+        <div class="col-lg-6">
+          <div
+            style="
+              max-width: 100%;
+              overflow: hidden;
+              color: red;
+              width: 500px;
+              height: 500px;
+            "
+          >
+            <div
+              id="embedmap-canvas"
+              style="height: 100%; width: 100%; max-width: 100%"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41856.601220115495!2d-111.88714325500199!3d40.75221919015274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1692325813336!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <form>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Name"
+            />
+            <input type="email" class="form-control mt-3" placeholder="Email" />
+            <input
+              type="text"
+              class="form-control mt-3"
+              placeholder="Subject"
+            />
+            <div class="mb-3 mt-3">
+              <textarea
+                class="form-control"
+                rows="5"
+                id="comment"
+                name="text"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </form>
+          <button type="button" class="btn btn-success mt-3">
+            Send Message
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Contact Us</h3>
+          <p>Email: help@room8.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="2.html#reviews">Reviews</a></li>
+            <li><a href="2.html#faqs">FAQS</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
