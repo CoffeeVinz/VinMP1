@@ -170,9 +170,9 @@
 
 .fixed-button {
     position: fixed;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    right: 20px; /* Adjust the distance from the right as needed */
-    z-index: 9999; /* Ensure it's above other content */
+    bottom: 20px;
+    right: 20px; 
+    z-index: 9999;
 }
 
 
@@ -185,6 +185,20 @@
         margin-right: 0;
     }
 }
+
+.carousel-inner img{
+  height: 200px;
+  width: 100%;
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+}
+
 
 
 /* Footer */
